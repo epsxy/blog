@@ -1,0 +1,12 @@
+[submodule "themes/hugo-coder"]
+	path = themes/hugo-coder
+	ignore = dirty
+	url = https://github.com/luizdepra/hugo-coder
+[submodule "themes/hikari"]
+	path = themes/hikari
+	ignore = dirty
+	url = https://github.com/digitalcraftsman/hugo-hikari-theme.git
+[submodule "themes/minhikari"]
+	path = themes/minhikari
+	ignore = dirty
+	url = https://github.com/epsxy/minhikari.git

@@ -1,0 +1,51 @@
+baseurl = "/"
+languageCode = "en-us"
+title = "E · P · S · X · Y 🦄"
+# Enable comments by entering your Disqus shortname
+# disqusShortname = "spf13"
+# Enable Google Analytics by entering your tracking code
+# googleAnalytics = ""
+theme = "minhikari"
+
+[permalinks]
+	post = "/posts/:slug"
+
+[params]
+	name = "Epsxy"
+	description = ""
+	copyright = "🌑 🌒 🌓 🌔 🌕 🌖 🌗 🌘 🌑"
+
+	# Custom assets can be linked with their paths relative to static/
+	custom_css = ["purple.css", "custom.css"]
+	custom_js  = []
+
+	# Links to newer/older blog posts
+	newer = "Newer"
+	older = "Older"
+
+	pageNotFoundTitle = "Page not found"
+	pageNotFoundSubtitle = "Sorry, but the requested page wasn’t <br> found on the server."
+
+[markup.goldmark.renderer]
+    unsafe = true
+
+[params.offcanvas]
+	# Menu items
+	title = "Hi, I'm Epsxy"
+	bio =   """Software Engineer, interested in modern web technologies and programming in general. <br><br> \
+	Typescript · Python · Haskell <br><br> World of Warcraft · Starcraft II <br><br> \
+	<p style=\"text-align: center;\">🌑 🌒 🌓 🌔 🌕 🌖 🌗 🌘 🌑</p>"""
+	subscribe = "Subscribe"
+	followme = "Social"
+
+	# Enable Google search
+	search_enabled = false
+	search = "Search"
+
+	[[params.offcanvas.socialnetworks]]
+		name = "Github"
+		url = "//github.com/epsxy"
+
+	[[params.offcanvas.socialnetworks]]
+		name = "Twitter"
+		url = "//twitter.com/epsxy"

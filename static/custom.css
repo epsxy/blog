@@ -1,0 +1,18 @@
+@import url(https://cdn.jsdelivr.net/gh/tonsky/FiraCode@4/distr/fira_code.css);
+
+.single-wrap {
+    max-width: 1000px;
+}
+
+pre code {
+    font-size: 14px;
+}
+
+.highlight {
+    padding: 0;
+    border: unset;
+}
+
+.hljs {
+    font-family: 'Operator Mono', 'Fira Code', 'Menlo', 'Monaco', 'Courier New', 'monospace';
+}

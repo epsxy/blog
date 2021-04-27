@@ -1,0 +1,15 @@
+name = "Minhikari"
+license = "MIT"
+description = " A minimal theme perfect for dev-savvy bloggers."
+homepage = "//github.com/epsxy/minhikari"
+tags = ["blog", "minimal", "syntax highlighting", "Disqus", "Google Analytics"]
+features = []
+min_version = "0.57.0"
+
+[author]
+  name = "epsxy"
+  homepage = "//github.com/epsxy"
+
+[original]
+  name = "digitalcraftsman"
+  homepage = "//github.com/digitalcraftsman"
